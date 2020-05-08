@@ -69,6 +69,12 @@ Sub Generate_Email(name, attchment, htm As String, i As Integer)
         .BCC = ""
         .Subject = Format(Date, "YYYYMMDD") & " Weekly Summary"
         .attachments.Add attchment
+        ' If multiple files need to be attached
+        ' Dim files As Variant, file As Variant
+        ' files = Split(filepath, ",")
+        ' For Each file In files
+        '     .attachments.Add file
+        ' Next
         .htmlbody = body
         '.display
         .Save
