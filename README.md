@@ -1,6 +1,21 @@
 # VBA Collections
 A place to collect all the excel/Outlook VBA works written so far, making it easier for future look up.
 <br>
+<details><summary>Table of Contents</summary>
+<p>
+* [VBA Syntax Notes](#Notes)
+* [Copy Sheets](#CopySheets)
+* [Create Folder](#CreateFolder)
+* [Generate Email](#GenerateEmail)
+* [Save Htm File](#SaveHtmFile)
+* [Send Drafts](#SendDrafts)
+</p>
+</details>
+<br>
+
+## [VBA Syntax Notes](/VBA_SyntaxNotes.ipynb)
+* **Usages** : Quickly look up common use syntax.
+* **Example** : Copy and paste, delete, modify, autofill, filter, sort, find, replace cells/range. Conditions and loop...etc
 
 ## [Copy Sheets](/Copy_Sheets.bas)
 * **Usage** : Copy worksheets in current excel workbook to another.
@@ -39,5 +54,4 @@ A place to collect all the excel/Outlook VBA works written so far, making it eas
 2. **Send All Drafts**
     * **Usage** : Outlook VBA for sending a batch of emails
     * **Example** : Pop up notification for user to make sure sending out correct mailbox and sending out all drafts after clicking `Yes`.
- 
  
