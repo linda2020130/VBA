@@ -1,5 +1,5 @@
 # VBA Collections
-A place to collect all the excel/Outlook VBA works written so far, making it easier for future look up.
+A place to collect all the excel/outlook VBA works written so far, making it easier for future look up.
 <br>
 ## Table of Contents
 * [VBA Syntax Notes](#Notes)
