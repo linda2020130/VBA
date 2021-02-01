@@ -19,21 +19,21 @@ A place to collect all the excel/outlook VBA works written so far, making it eas
 
 <h2 id="CopySheets">Copy Sheets</h2>
 
-[🦖](/Copy_Sheets.bas)
+[🦖](/Functions/Copy_Sheets.bas)
 * **Usage** : Copy worksheets in current excel workbook to another.
 * **Example** : Copy sheets("Summary", "table1", "table2") from Test.xlsm to new workwork and save as "Summary_YYYYMMDD.xlsx".
 <br>
 
 <h2 id="CreateFolder">Create Folder</h2>
 
-[🦖](/Create_Folder.bas)
+[🦖](/Functions/Create_Folder.bas)
 * **Usage** : Create a folder(directory) in desired path using excel VBA.
 * **Example** : Create a folder at Desktop and name it as current year and month, and create a folder inside of it as current date. Do not create if already existed.
 <br>
 
 <h2 id="GenerateEmail">Generate Email</h2>
 
-[🦖](/Generate_Email.bas)
+[🦖](/Functions/Generate_Email.bas)
 1. **Get Signature (function)**
     * **Usage** : Get outlook signature to be inserted to email content.
     * **Example** : Go to `C:\Users\lindac\AppData\Roaming\Microsoft\Signatures\` to get signature named as `Linda Chou.htm`.
@@ -50,14 +50,14 @@ A place to collect all the excel/outlook VBA works written so far, making it eas
 
 <h2 id="SaveHtmFile">Save Htm File</h2>
 
-[🦖](/Save_htm_File.bas)
+[🦖](/Functions/Save_htm_File.bas)
 * **Usage** : Save table in Acurrent workbook as html file(htm file can be inserted to email content).
 * **Example** : Save table in worksheet "Summary" as `Summary Table_YYYYMMDD` to folder with current year, month and date at Desktop.
 <br>
  
 <h2 id="SendDrafts">Send Draft</h2>
 
-[🦖](/Send_Drafts.bas)
+[🦖](/Functions/Send_Drafts.bas)
 1. **Send All Your Mail Box Drafts**
     * **Usage** : Outlook VBA for sending a batch of emails and input the mail box name.
     * **Example** : Call out SendAllDrafts and put mail box name `"linda2020130"` as input parameter.
