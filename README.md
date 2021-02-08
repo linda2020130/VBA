@@ -12,6 +12,7 @@ A place to collect all the excel/outlook VBA works written so far, making it eas
 * [Projects](#Proj)
    * [Calculate Balance](#Balance)
    * [Split Data Rows](#SplitRows)
+   * [Issue Parts Alert](#IssueParts)
 <br>
 
 <h2 id="Comm">VBA Syntax Notes</h2>
@@ -89,6 +90,34 @@ A place to collect all the excel/outlook VBA works written so far, making it eas
 * **Function** : Read the qty column in summary worksheet and split a row into rows based on mpq(e.g. qty of 1000 and mpq of 300, need to split a row of qty 1000 into four rows of 300, 300, 300, and 100) in split worksheet. Fill in excel formulas for other columns(e.g. price, date).
 <br>
 
+<h3 id="IssueParts">Issue Parts Alert</h3>
 
-
-
+[🦈](/Projects/Issue%20Parts)
+* **Function** : Download data of inventory, backlog, forecast, and billing, identify issue parts, and then send email notices for PGs/PMs to take corresponding actions.
+* **Flows** : 
+    <details><summary>Main</summary>
+    
+    ![Main](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-Main.png)
+    </details>
+    <details><summary>Data Cleaning</summary>
+    
+    ![Data Cleaning](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-Data%20Cleaning.png)
+    </details>
+    <details><summary>Create Folders</summary>
+    
+    ![Folders](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-Folders.png)
+    </details>
+    <details><summary>Check PM List</summary>
+    
+    ![PM List](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-PM%20List.png)
+    </details>
+    <details><summary>Generate PG/PM Issue Files for Kit Parts</summary>
+    
+    ![Kit Files](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-Kit%20Files.png)
+    </details>
+    <details><summary>Generate PG/PM Issue Files for General Parts</summary>
+    
+    ![General Files](/Projects/Issue%20Parts/Flows/Issue%20Parts%20System%20Flow-General%20Files.png)
+    </details>
+    
+    
