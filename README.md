@@ -19,7 +19,7 @@ A place to collect all the excel/outlook VBA works written so far, making it eas
 
 [🦖 bas](/VBA_Commands.bas)<br>
 [🦈 ipynb](/VBA_Commands.ipynb)
-* **Function** : Quickly look up common use syntax.
+* **Function** : Quickly look up common syntax.
 * **Example** : Copy and paste, delete, modify, autofill, filter, sort, find, replace cells/range. Conditions and loop...etc
 <br>
 
